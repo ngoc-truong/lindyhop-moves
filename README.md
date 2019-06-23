@@ -1,4 +1,4 @@
-# lindyhop-moves
+# Lindyhop-Moves
 
 This project contains the front-end design of a future website which contains lindy hop moves. It will contain a table view in which users can enter specific details about lindy hop moves they have learned so that they have an overview about all the moves they know and how to do them.
 
