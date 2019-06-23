@@ -1,0 +1,175 @@
+/* Nice colors
+dark black: #1a2129;
+
+
+*/
+
+body {
+    background-color: #e0dcdc;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #E55D87;
+    background: -webkit-linear-gradient(to right, #F27272, #8C515C);
+    background: linear-gradient(to right,  #F27272, #8C515C);
+    min-height: 65px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+#logo{
+    font-family: "Comfortaa", cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    border: 2px solid white;
+    float: left;
+    margin-top: 12px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+nav {
+    /*
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    */
+    float: right;
+}
+
+.nav-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-nav {
+    letter-spacing: 1px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 3em;
+    padding-top: 23px;
+    position: relative;
+
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif; 
+    color: white;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before{
+    content: ""; 
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+#main-content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.box {
+    margin-top: 5em;
+    padding: 0 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px -10px rgba(72, 29, 99, .3);
+}
+
+h1, h2, h3, h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #4a5b6e;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+.video {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: #1a2129;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px -10px rgba(72, 29, 99, .3);
+
+}
+
+video {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background: #1a2129;
+}
+
+.main-footer{
+    margin: 0 auto;
+    width: 80%;
+    background-color: green;
+}
+
+.main-footer li{
+    display: inline;
+    float: right;
+    margin-left: 3em
+}
